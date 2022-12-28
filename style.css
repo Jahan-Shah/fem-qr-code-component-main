@@ -44,7 +44,6 @@ html, body {
   5. Improve text rendering
 */
 body {
-  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
 /*
@@ -96,7 +95,7 @@ img {
 
 .heading {
   font-weight: var(--ff-bold);
-  font-size: 1.25rem;
+  font-size: 1.325rem;
   display: inline-block;
   color: var(--clr-primary-color);
   padding-bottom: 0.8rem;
@@ -108,5 +107,4 @@ p {
   font-size: 0.9375rem;
   font-weight: var(--ff-regular);
   margin: 1.25rem;
-  line-height: 1.2;
 }
