@@ -1,0 +1,97 @@
+:root {
+    --clr-primary-color: hsl(218, 44%, 22%);
+    --clr-secondary-color: hsl(220, 15%, 55%);
+
+    --clr-accent-100: hsl(0, 0%, 100%);
+    --clr-accent-400: hsl(212, 45%, 89%);
+
+    --ff-bold: 700;
+    --ff-regular: 400;
+}
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  /*
+    2. Remove default margin
+  */
+  * {
+    margin: 0;
+  }
+  /*
+  3. Allow percentage-based heights in the application
+  */
+  html, body {
+    font-family: 'Outfit';
+    height: 100%;
+    text-align: center;
+  }
+  /*
+    Typographic tweaks!
+    4. Add accessible line-height
+    5. Improve text rendering
+  */
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  /*
+    6. Improve media defaults
+  */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  /*
+    7. Remove built-in form typography styles
+  */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  /*
+    8. Avoid text overflows
+  */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+
+  body {
+    background-color: var(--clr-accent-400);
+    padding: 26px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1rem;
+  }
+
+  section {
+    background-color: var(--clr-accent-100);
+    display: grid;
+    border-radius: 1.2rem;
+    overflow: hidden;
+    padding: 1rem;
+    width: 320px;
+    height: 500px;
+  }
+
+  img {
+    border-radius: 0.6rem;
+  }
+
+  .heading {
+    font-weight: var(--ff-bold);
+    font-size: 1.25rem;
+    display: inline-block;
+    color: var(--clr-primary-color);
+    padding-bottom: 0.8rem;
+  }
+
+  p {
+    color: var(--clr-secondary-color);
+    font-size: 15px;
+    font-weight: var(--ff-regular);
+    margin: 1.25rem;
+  }
