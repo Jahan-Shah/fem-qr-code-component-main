@@ -98,13 +98,12 @@ img {
   font-size: 1.325rem;
   display: inline-block;
   color: var(--clr-primary-color);
-  padding-bottom: 0.8rem;
+  padding: 0.8rem 0;
 }
 
 p {
-  padding: 0.2rem;
+  padding: 1.4rem;
   color: var(--clr-secondary-color);
   font-size: 0.9375rem;
   font-weight: var(--ff-regular);
-  margin: 1.25rem;
 }
